@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>게시판 페이지</title>
 </head>
 <body>
 
-    <header>
-        헤더 삽입부
-        <hr>
-    </header>
+    <header th:replace="header :: header"></header>
 
     <main>
         검색창
@@ -51,8 +48,8 @@
                 </tr>
                 <tr>
                     <td>세번째글</td>
-                    <td>#java</td>
-                    <td>beomu</td>
+                    <td>#pizza</td>
+                    <td>양현모</td>
                     <td>2022-08-17</td>
                 </tr>
             </tbody>
@@ -71,9 +68,6 @@
         </nav>
     </main>
 
-    <footer>
-        <hr>
-        푸터 삽입부
-    </footer>
+    <footer th:replace="footer :: footer"></footer>
 </body>
 </html>
