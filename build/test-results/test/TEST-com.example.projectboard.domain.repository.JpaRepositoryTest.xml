@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JPA 연결 테스트" tests="4" skipped="4" failures="0" errors="0" timestamp="2022-08-19T07:27:12" hostname="gimbeom-uui-MacBookAir.local" time="0.001">
+  <properties/>
+  <testcase name="insert 테스트" classname="com.example.projectboard.domain.repository.JpaRepositoryTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="select 테스트" classname="com.example.projectboard.domain.repository.JpaRepositoryTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="delete 테스트" classname="com.example.projectboard.domain.repository.JpaRepositoryTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="update 테스트" classname="com.example.projectboard.domain.repository.JpaRepositoryTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
