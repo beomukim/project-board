@@ -43,7 +43,7 @@ class ArticleCommentServiceTest {
         // 구현시 수정 코드
 
         // When
-        List<ArticleCommentDto> articleComments = sut.searchArticleComment(articleId);
+        List<ArticleCommentDto> articleComments = sut.searchArticleComments(articleId);
 
         // Then
         assertThat(articleComments).isNotNull();
