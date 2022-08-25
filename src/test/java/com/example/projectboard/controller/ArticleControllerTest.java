@@ -1,7 +1,7 @@
 package com.example.projectboard.controller;
 
 import com.example.projectboard.config.SecurityConfig;
-import com.example.projectboard.domain.UserAccountDto;
+import com.example.projectboard.dto.UserAccountDto;
 import com.example.projectboard.domain.type.SearchType;
 import com.example.projectboard.dto.ArticleWithCommentsDto;
 import com.example.projectboard.service.ArticleService;
@@ -217,7 +217,7 @@ class ArticleControllerTest {
     }
 
     private UserAccountDto createUserAccountDto() {
-        return UserAccountDto.of(1L,
+        return UserAccountDto.of(
                 "uno",
                 "pw",
                 "uno@mail.com",

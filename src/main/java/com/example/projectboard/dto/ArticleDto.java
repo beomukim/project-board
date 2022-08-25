@@ -1,9 +1,7 @@
 package com.example.projectboard.dto;
 
 import com.example.projectboard.domain.Article;
-import com.example.projectboard.domain.UserAccountDto;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
 public record ArticleDto(

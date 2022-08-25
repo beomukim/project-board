@@ -2,14 +2,11 @@ package com.example.projectboard.service;
 
 import com.example.projectboard.domain.Article;
 import com.example.projectboard.domain.UserAccount;
-import com.example.projectboard.domain.UserAccountDto;
+import com.example.projectboard.dto.UserAccountDto;
 import com.example.projectboard.domain.repository.ArticleRepository;
-import com.example.projectboard.domain.repository.UserAccountRepository;
 import com.example.projectboard.domain.type.SearchType;
 import com.example.projectboard.dto.ArticleDto;
-import com.example.projectboard.dto.ArticleUpdateDto;
 import com.example.projectboard.dto.ArticleWithCommentsDto;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,7 +15,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.test.util.ReflectionTestUtils;
 
 import javax.persistence.EntityNotFoundException;
 import java.time.LocalDateTime;
@@ -264,7 +260,6 @@ class ArticleServiceTest {
 
     private UserAccountDto createUserAccountDto() {
         return UserAccountDto.of(
-                1L,
                 "uno",
                 "password",
                 "uno@mail.com",

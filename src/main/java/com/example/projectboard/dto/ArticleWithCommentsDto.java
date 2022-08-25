@@ -1,7 +1,6 @@
 package com.example.projectboard.dto;
 
 import com.example.projectboard.domain.Article;
-import com.example.projectboard.domain.UserAccountDto;
 
 import java.time.LocalDateTime;
 import java.util.LinkedHashSet;
