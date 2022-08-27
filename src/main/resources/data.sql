@@ -1,8 +1,8 @@
 insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
-    ('beomu', 'asdf1234', 'beomu', 'beomu@email.com', 'I am beoum.', now(), 'beoum', now(), 'beoum');
+    ('beomu', '{noop}asdf1234', 'beomu', 'beomu@email.com', 'I am beoum.', now(), 'beoum', now(), 'beoum');
 
 insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
-    ('yang', 'asdf1234', 'yang', 'yang@email.com', 'I am yang.', now(), 'yang', now(), 'yang');
+    ('yang', '{noop}asdf1234', 'yang', 'yang@email.com', 'I am yang.', now(), 'yang', now(), 'yang');
 
 
 insert into article (user_account_user_id, title, content, hashtag, created_by, modified_by, created_at, modified_at) values
